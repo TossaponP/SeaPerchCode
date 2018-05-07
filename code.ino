@@ -134,7 +134,6 @@ void loop() {
         speedC = speedC +1;
       }
 
-
      analogWrite(enC,speedC);
      Serial.println(speedC);
     
