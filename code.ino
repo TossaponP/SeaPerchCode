@@ -31,7 +31,7 @@ int speedC = 0;
 
 void setup() {
 
-  //Serial.begin(9600); 
+  Serial.begin(9600); 
   pinMode(pushButton, INPUT); 
   pinMode(pushButton2, INPUT); 
   pinMode(pushButton3, INPUT); 
